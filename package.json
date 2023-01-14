@@ -1,0 +1,11 @@
+{
+  "name": "do-it",
+  "version": "1.0.0",
+  "description": "A minimal to-do list",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush Kumar",
+  "license": "ISC"
+}

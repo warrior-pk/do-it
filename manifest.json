@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "do-it",
+    "description": "to do list",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "main.html",
+      "default_icon": "icons/logo.png"
+    },
+    "permissions" : ["activeTab"]
+  }

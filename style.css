@@ -1,0 +1,111 @@
+/* :root{
+    --clr-primary: rgb(54, 112, 199);
+    --clr-light: #f4f4f4;
+    --clr-dark:#0d1117;
+
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white !important;
+    width: 370px;
+    min-height: min-content;
+    max-height: 500px; 
+    background: none;
+    background-color: #1a1a1a;
+    /* scroll bar hidden */
+        overflow-y: scroll; 
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.main-container{
+    margin:10px;
+    background-color: #282828;
+    padding: 25px 12px 5px;
+    border-radius: 0.5rem;
+    min-height: auto;
+}
+nav{
+    margin: 10px;
+    border-radius: 0.5rem;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-custom{
+    background-color: #282828 !important;
+}
+nav a{
+   padding: 5px 8px 5px 0;
+}
+
+.form-select{
+    color: white !important;
+    background-color: #282828 !important;
+    border: none !important;
+}
+
+#task-count{
+    display: inline;
+    font-size: smaller;
+    font-weight: lighter;
+}
+#tasks{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+}
+input{
+    text-indent: 17px;
+}
+.form-check-input{
+    background-color : rgba(255, 255, 255, 0.07);
+}
+.form-check-input:checked{
+    opacity: 0.2;
+}
+.new-task-creator{
+    margin: 5px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.new-task-creator input{
+    min-height: 32px;
+    vertical-align: bottom;
+}
+
+[type = "checkbox"]:checked + label{
+    opacity: 0.3;
+    
+}
+#new-task-input {
+    background-color:rgba(255,255,255, 0.07) ;
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.create{
+    height: 32px !important;
+    scale: 0.9;
+}
+.delete-stuff{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin: 10px auto;
+}
+
+.icons{
+    width: 12px;
+    fill: yellow;
+}
